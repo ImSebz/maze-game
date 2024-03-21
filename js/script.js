@@ -524,7 +524,7 @@ window.onload = function () {
   };
   sprite = new Image();
   sprite.src =
-    "./key.png" +
+    "./assets/key.png" +
     "?" +
     new Date().getTime();
   sprite.setAttribute("crossOrigin", " ");
@@ -535,7 +535,7 @@ window.onload = function () {
   };
 
   finishSprite = new Image();
-  finishSprite.src = "./home.png" +
+  finishSprite.src = "./assets/home.png" +
     "?" +
     new Date().getTime();
   finishSprite.setAttribute("crossOrigin", " ");
